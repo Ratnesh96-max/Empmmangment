@@ -1,0 +1,47 @@
+.employee-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.employee-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.image-preview img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
